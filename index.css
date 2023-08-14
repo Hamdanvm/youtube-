@@ -1,0 +1,272 @@
+.thumbnail{
+   width: 100%;
+    align-items: top;
+}
+.video-title{
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    margin-bottom: 10px ;
+
+}
+.video-author{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(49, 44, 44);
+    margin-bottom: 4px;
+}
+.video-stats{
+    font-size: 12px;
+    font-weight: lighter;
+    color:  rgb(53, 51, 51);
+   
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+}
+     
+.channel-picture{
+    
+    vertical-align: top;
+  
+}
+
+.pro-pic{
+    width: 100%;
+    border-radius: 35px;
+}
+.thumbnail-row{
+    margin-bottom: 10px;
+    position: relative;
+}
+p{
+   font-family: Roboto,arial;
+   margin-top: 0;
+   margin-bottom: 0;
+
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding-left: 10px;
+
+}
+.body{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right:24px;
+    background-color: rgb(247, 242, 242);
+}
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    z-index: 100;
+
+
+}
+.left-section{
+  
+    
+    display: flex;
+    align-items: center;
+
+}
+.center-section{
+    flex: 1;
+   
+    margin-left: 100px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+
+}
+.right-section{
+    width: 250px;
+     margin-right: 25px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    
+
+
+}
+.hamburger-menu{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.youtube{
+    height: 25px;
+}
+.search-button{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    
+   
+}
+.search-buttons{
+    background-color: lightgray;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    width: 50px;
+    margin-right: 10px;
+    position: relative;
+   
+}
+.search-buttons .tooltip,
+.voice-buttons .tooltip,
+.notify-icon .tooltip{
+    position:absolute;
+    background-color:gray;
+    font-family: Roboto,arial;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s; 
+    white-space: nowrap;
+    
+}
+.search-buttons:hover .tooltip,
+.voice-buttons:hover .tooltip,
+.notify-icon:hover .tooltip{
+    opacity: 1;
+}
+.notify-icon{
+    position: relative;
+}
+
+
+.voice-button{
+    margin-top: 3px;
+}
+.voice-buttons{
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    background-color:lightgray; 
+    border: none;
+    position: relative;
+
+
+
+}
+.search-bar{
+    flex: 1;
+    height: 25px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 2px;
+    
+    
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+.video-icon{
+    height: 30px;
+}
+.dots-icon{
+    height: 30px;
+}
+.ring-icon{
+    height: 30px;
+}
+.hamd{
+    height: 30px;
+    border-radius: 15px;
+}
+.side-bar{
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 80px;
+    z-index: 200;
+    padding-right: 1px;
+    cursor: pointer;
+   
+}
+.video-time{
+    font-family: Roboto,arial;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    
+    padding-left: 2px;
+    border-radius: 2px;
+    
+   
+
+}
+.ring-position{
+    position: relative;
+}
+.ring-pos{
+    background-color: rgb(151, 22, 22);
+    color: white;
+   font-family: Roboto,arial;
+   font-size: 10px;
+   height: 15px;
+   
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 12px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 10px;
+}
+.side-bar-link{
+   
+    height: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.side-bar-link:hover{
+    background-color: rgb(201, 192, 192);
+}
+.side-bar-link img{
+    height: 30px;
+}
+.side-bar-link div{
+    font-family: Roboto,arial;
+    font-size: 11px;
+}
